@@ -1,8 +1,7 @@
-/* eslint-disable */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
-import { Provider } from 'react-redux'; // импорт компонента!
+import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import Dropdown from './components/Dropdown';
 import Modal from './components/Modal';

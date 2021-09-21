@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 export const selectItem = (item) => ({
   type: 'SELECT_ITEM',
   payload: item,
