@@ -6,9 +6,9 @@ export const selectItem = (item) => ({
 export const renderList = (list) => ({
   type: 'RENDER_LIST',
   payload: list,
-})
+});
 
 export const openModal = (isOpened) => ({
   type: 'OPEN_MODAL',
   payload: isOpened,
-})
+});

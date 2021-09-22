@@ -12,5 +12,5 @@ parserOptions:
 plugins:
   - react
 rules: {
-  "react/prefer-stateless-function": [<enabled>, { "ignorePureComponents": <ignorePureComponents> }]
+  "react/prefer-stateless-function": [0, { "ignorePureComponents": <ignorePureComponents> }]
 }
